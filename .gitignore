@@ -1,0 +1,8 @@
+/vendor/*
+!/var/logs/.gitkeep
+/var/logs/*
+!/var/cache/.gitkeep
+/var/cache/*
+.idea/
+.project
+.settings/
