@@ -1,0 +1,43 @@
+(function (Translator) {
+    Translator.fallback      = 'en';
+    Translator.defaultDomain = 'messages';
+    // en_US
+    // en
+    Translator.add("actionbar.copy", "Copy", "bar", "en");
+    Translator.add("actionbar.createContent", "Create", "bar", "en");
+    Translator.add("actionbar.delete", "Delete", "bar", "en");
+    Translator.add("actionbar.edit", "Edit", "bar", "en");
+    Translator.add("actionbar.minimizeActionBar", "Minimize", "bar", "en");
+    Translator.add("actionbar.move", "Move", "bar", "en");
+    Translator.add("actionbar.sendToTrash", "Send to Trash", "bar", "en");
+    Translator.add("actionbar.translate", "Translations", "bar", "en");
+    Translator.add("content.being.copied.under", "\"%contentName%\" is being copied under \"%parentContentName%\"", "bar", "en");
+    Translator.add("content.browser.title", "Content browser", "bar", "en");
+    Translator.add("content.copied.under", "'%contentName%' has been successfully copied under '%parentContentName%'", "bar", "en");
+    Translator.add("createcontentaction.loading", "Loading", "bar", "en");
+    Translator.add("creating.new.location.for", "Creating new location for \"%name%\"", "bar", "en");
+    Translator.add("creating.new.location.for.failed", "Creating new location(s) for \"%name%\" failed", "bar", "en");
+    Translator.add("discoverybar.browse", "Content browse", "bar", "en");
+    Translator.add("discoverybar.contenttree", "Content tree", "bar", "en");
+    Translator.add("discoverybar.minimize", "Minimize", "bar", "en");
+    Translator.add("discoverybar.search", "Search", "bar", "en");
+    Translator.add("discoverybar.trash", "Trash", "bar", "en");
+    Translator.add("error.hiding.location", "Error while hiding location \"%id%\"", "bar", "en");
+    Translator.add("error.occurred.copying", "An error occurred while copying your content", "bar", "en");
+    Translator.add("error.occurred.loading", "An error occurred while loading your content", "bar", "en");
+    Translator.add("error.revealing.location", "Error while revealing location \"%id%\"", "bar", "en");
+    Translator.add("failed.creating.new.location.for", "Creating new location for \"%name%\" under \"%parentName%\" failed", "bar", "en");
+    Translator.add("hidden.location", "Location \"%id\" has been hidden", "bar", "en");
+    Translator.add("hiding.location", "Hiding Location \"%id%\"", "bar", "en");
+    Translator.add("location.created", "New location for \"%name%\" has been successfully created", "bar", "en");
+    Translator.add("locations.created", "%count% new locations for \"%name%\" have been successfully created", "bar", "en");
+    Translator.add("revealed.location", "Location \"%id%\" has been revealed", "bar", "en");
+    Translator.add("revealing.location", "Revealing Location \"%id%\"", "bar", "en");
+    Translator.add("select.a.language.for.new.translation", "Select a language for your new translation:", "bar", "en");
+    Translator.add("select.location.to.copy", "Select the location you want to copy your content into", "bar", "en");
+    Translator.add("select.location.to.create.new.location", "Select the location where you want to create new location", "bar", "en");
+    Translator.add("translateaction.edit", "Edit", "bar", "en");
+    Translator.add("translateaction.existing.translations", "Existing Translations", "bar", "en");
+    Translator.add("translateaction.new.translation", "+ New Translation", "bar", "en");
+    Translator.add("view.content.label", "View this content", "bar", "en");
+})(Translator);
